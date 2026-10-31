@@ -1,0 +1,7 @@
+PySide6>=6.6
+
+# Windows Hello (fingerprint). Only installed on Windows.
+winrt-runtime; sys_platform == "win32"
+winrt-Windows.Foundation; sys_platform == "win32"
+winrt-Windows.Foundation.Collections; sys_platform == "win32"
+winrt-Windows.Security.Credentials.UI; sys_platform == "win32"
